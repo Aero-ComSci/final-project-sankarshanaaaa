@@ -36,7 +36,7 @@ while True:
 
 print("Great! Now your activities have been added to the list.")
 while True:
-    select = input("Enter anything to select your next activity, leave it blank and press enter to stop.")
+    select = input("Enter anything to select your next activity, leave it blank and press enter to stop: ")
     if not select:
         time.sleep(1)
         print("Hope this helped cure your boredom! Come back whenever you want!")
